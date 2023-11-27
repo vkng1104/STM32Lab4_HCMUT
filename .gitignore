@@ -3,6 +3,12 @@
 # vscode
 .vscode
 
+# Ignore all files in the simulation folder
+simulation/*
+
+# Except for simulation.pdsprj
+!simulation/simulation.pdsprj
+
 # Prerequisites
 *.d
 
